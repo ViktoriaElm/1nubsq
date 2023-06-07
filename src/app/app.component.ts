@@ -15,19 +15,12 @@ import { RouterModule } from '@angular/router';
       <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
     </header>
   </a>
-    <section class="content">
+  <section class="content">
     <router-outlet></router-outlet>
-    </section>
-  </main>`,
+  </section>
+</main>`,
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
   title = 'Homes';
 }
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
